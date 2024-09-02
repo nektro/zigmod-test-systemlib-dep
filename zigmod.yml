@@ -1,0 +1,5 @@
+id: 7ufidpbnhee7qn7htqvmxwjj23tupve83ql1hks2fc4uo0bz
+name: zigmod-test
+license: MPL-2.0
+root_dependencies:
+  - src: system_lib zlib
