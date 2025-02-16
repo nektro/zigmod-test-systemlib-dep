@@ -17,5 +17,6 @@ test "basic header functionality" {
 
 test "basic extern functionality" {
     const version = std.mem.sliceTo(c.zlibVersion(), 0);
+    std.log.info("zlib version: {s}", .{version});
     try std.testing.expect(std.mem.count(u8, version, ".") == 2);
 }
